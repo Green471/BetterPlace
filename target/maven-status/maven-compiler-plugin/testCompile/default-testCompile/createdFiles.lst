@@ -1,0 +1,6 @@
+stepdefinitions\Stepdefinitionss.class
+utilities\Driver.class
+utilities\ConfigurationReader.class
+pages\DonataPage.class
+runners\Runners.class
+utilities\Driver$1.class
