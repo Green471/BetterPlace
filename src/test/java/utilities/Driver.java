@@ -232,17 +232,7 @@ public class Driver {
         Driver.closeDriver();
     }
 
-    
 
-    public static void secreenshot()  {
-
-            File src = ((TakesScreenshot) Driver.getDriver()).getScreenshotAs(OutputType.FILE);
-        try {
-           FileUtils.copyFile(src, new File("target/screenshot.png"));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
 
 
 

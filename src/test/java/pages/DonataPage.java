@@ -87,11 +87,11 @@ public class DonataPage {
     @FindBy (css = ".text-3xl")
     public WebElement dankeMessage;
 
-    @FindBy (xpath = "//div[@class='payment-method-radios form-group']")
-    public WebElement divWitdh;
+    @FindBy (xpath = "//*[@id=\"mount-donate-form\"]/div/div/div/div/div/form/div[1]/div[3]/div[1]/div[1]']")
+    public WebElement invalinUrlDivConHight;
 
-    @FindBy (xpath = "payment-method-radios form-group")
-    public WebElement validUrlConWitdh;
+    @FindBy (xpath = "//*[@id=\"mount-donate-form\"]/div/div/div/div/div/form/div[1]/div[3]/div[1]/div")
+    public WebElement validUrlDivConHight;
 
 
 
