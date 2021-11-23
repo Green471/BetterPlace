@@ -26,7 +26,7 @@ public class Stepdefinitionss {
 
     @Given("I am on the donation page")
     public void i_am_on_the_donation_page() {
-        Driver.getDriver().get(ConfigurationReader.getProperty("invalid_url"));
+        Driver.getDriver().get(ConfigurationReader.getProperty("valid_url"));
     }
 
     @When("I click on the Okay! button")

@@ -1,0 +1,295 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-23T16:27:44.905Z",
+        "line": 7,
+        "name": "Donation",
+        "description": "",
+        "id": "donation;donation",
+        "after": [
+          {
+            "result": {
+              "duration": 446998500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hook.secreenshot()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6843666100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on the donation page",
+            "match": {
+              "location": "stepdefinitions.Stepdefinitionss.i_am_on_the_donation_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 164422300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on the Okay! button",
+            "match": {
+              "location": "stepdefinitions.Stepdefinitionss.iClickOnTheOkayButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 436997900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on the betrage text box and cleared it",
+            "match": {
+              "location": "stepdefinitions.Stepdefinitionss.iClickOnTheBetrageTextBoxAndClearedIt()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 209566800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I type \"5\" into the betrage text box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"5\"",
+                  "offset": 7
+                }
+              ],
+              "location": "stepdefinitions.Stepdefinitionss.iTypeIntoTheBetrageTextBox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25999900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should select payment periode",
+            "match": {
+              "location": "stepdefinitions.Stepdefinitionss.iShouldSelectPaymentPeriode()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2315433800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should select payment method and see information message on the page",
+            "match": {
+              "location": "stepdefinitions.Stepdefinitionss.iShouldSelectPaymentMethodAndSeeInformationMessageOnThePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 124996300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Donation, company or individual payment method can be selected.",
+            "match": {
+              "location": "stepdefinitions.Stepdefinitionss.donationCompanyOrIndividualPaymentMethodCanBeSelected()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regressionTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-23T16:27:55.581Z",
+        "line": 16,
+        "name": "DonationData",
+        "description": "",
+        "id": "donation;donationdata",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [],
+        "tags": [
+          {
+            "name": "@regressionTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-23T16:27:55.587Z",
+        "line": 31,
+        "name": "DonationData",
+        "description": "",
+        "id": "donation;donationdata;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 407999600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hook.secreenshot()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 325949400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on the name box and type the \"Testname\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Testname\"",
+                  "offset": 37
+                }
+              ],
+              "location": "stepdefinitions.Stepdefinitionss.iClickOnTheNameBoxAndTypeThe(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 267997000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on the last box and type the \"Testlasname\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Testlasname\"",
+                  "offset": 37
+                }
+              ],
+              "location": "stepdefinitions.Stepdefinitionss.iClickOnTheLastBoxAndTypeThe(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 385004500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on the email box and type the \"test@betterplace.org\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test@betterplace.org\"",
+                  "offset": 38
+                }
+              ],
+              "location": "stepdefinitions.Stepdefinitionss.iClickOnTheEmailBoxAndTypeThe(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10662693200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click on the Betrag anzeigen checkbox",
+            "match": {
+              "location": "stepdefinitions.Stepdefinitionss.iClickOnTheBetragAnzeigenCheckbox()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10537802400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I click on the Betrag Name anzeigen checkbox",
+            "match": {
+              "location": "stepdefinitions.Stepdefinitionss.iClickOnTheBetragNameAnzeigenCheckbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 235948600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click on the Zu den Zahlungsinformationen button",
+            "match": {
+              "location": "stepdefinitions.Stepdefinitionss.iClickOnTheZuDenZahlungsinformationenButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2920575200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I should on the Weiter button",
+            "match": {
+              "location": "stepdefinitions.Stepdefinitionss.iShouldOnTheWeiterButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 69991000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I should see the DANKE message",
+            "match": {
+              "location": "stepdefinitions.Stepdefinitionss.iShouldSeeTheDANKEMessage()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regressionTest"
+          }
+        ]
+      }
+    ],
+    "name": "Donation",
+    "description": "    In order to donate to the project\n    As a user\n    I want to be able to donate to the project",
+    "id": "donation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/donation.feature",
+    "tags": [
+      {
+        "name": "@regressionTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
